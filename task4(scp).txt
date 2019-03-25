@@ -1,0 +1,116 @@
+Script started on 2019-03-25 11:49:13+0530
+]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ scp[K[K[Kexitssh cs17d02@192.168.0.30[8Pcript task5.txtclear[Ksftp cs17d15@192.168.0.30exit[Ksftp cs17d15@192.168.0.30exit[Ksftp cs17d02@192.168.0.30[12Pudo ifconfigcript lan.txt[8P./a.sh[4Plschmod u+x a.sh[4Pat >[C[C[C[C[C[4Pd s4dDesktop[KCHN17CS017  MA101 8 , PH100 8.5 , BE100 8 , BE10105 9  , BE103 9 , EE100 8.5 , PH110 9 , EE110 8.5 , CS110 10  8.54167[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./task1.sh[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCHN17CS017  MA101 8 , PH100 8.5 , BE100 8 , BE10105 9  , BE103 9 , EE100 8.5 , PH110 9 , EE110 8.5 , CS110 10  8.54167[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd Deskto[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp[4Ps4dat > a.sh[4@hmod u+x[C[C[C[C[Cls[K./a.shscript lan.txt[1Pudo ifconfigftp cs17d02@192.168.0.30exit[Ksftp cs17d15@192.168.0.30exit[Ksftp cs17d15@192.168.0.30clear[Kscript task5.txtsh cs17d02@192.168.0.30exit[K[Kscp s2final.txt cs17d02@192.168.0.30:
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d02@192.168.0.30's password: 
+s2final.txt                                     0%    0     0.0KB/s   --:-- ETAs2final.txt                                   100% 1135   810.3KB/s   00:00    
+]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ ssh cs[K[K[K[K[K[Kscp s2final.txt cs17d02@192.168.0.30:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscp s2final.txt cs17d02@192.168.0.30:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscp s2final.txt cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1Pcs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:[1P cs17d02@192.168.0.30:s cs17d02@192.168.0.30:h cs17d02@192.168.0.30:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d02@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 11:43:53 2019 from 192.168.0.86
+$ ls
+cs17d02  examples.desktop  result1.txt	s2final.txt  sample.txt  test
+$ cat s2final.txt
+Admn 8.43478
+CHN17CS004 9.17391
+CHN17CS006 8.45652
+CHN17CS013 8.63043
+CHN17CS017 3.86957
+CHN17CS018 8.80435
+CHN17CS019 7.63043
+CHN17CS021 4.06522
+CHN17CS022 2.28261
+CHN17CS023 8.3913
+CHN17CS024 8
+CHN17CS027 4.02174
+CHN17CS029 9.06522
+CHN17CS030 6.26087
+CHN17CS032 7
+CHN17CS034 4.78261
+CHN17CS037 2.91304
+CHN17CS038 8.19565
+CHN17CS041 9.1087
+CHN17CS044 5
+CHN17CS045 8.67391
+CHN17CS048 7.86957
+CHN17CS051 6.19565
+CHN17CS052 8.91304
+CHN17CS053 8.30435
+CHN17CS054 7.04348
+CHN17CS055 9.6087
+CHN17CS057 9.30435
+CHN17CS058 8.26087
+CHN17CS063 8.15217
+CHN17CS064 8.56522
+CHN17CS070 4.58696
+CHN17CS071 2.8913
+CHN17CS074 5.91304
+CHN17CS076 8.91304
+CHN17CS077 7.78261
+CHN17CS080 5.78261
+CHN17CS083 7.47826
+CHN17CS085 5.69565
+CHN17CS088 5.02174
+CHN17CS090 8.36957
+CHN17CS093 9.19565
+CHN17CS094 8.8913
+CHN17CS095 8.82609
+CHN17CS097 6.76087
+CHN17CS100 7.26087
+CHN17CS101 7.76087
+CHN17CS104 6.28261
+CHN17CS106 2.28261
+CHN17CS109 7.54348
+CHN17CS110 8.86957
+CHN17CS111 7.41304
+CHN17CS113 8.06522
+CHN17CS114 7.54348
+CHN17CS115 8.19565
+CHN17CS116 8.69565
+CHN17CS117 9.34783
+CHN17CS118 7.5
+CHN17CS119 
+LCHN17CS122 
+LCHN17CS124 
+LCHN17CS121 
+LCHN17CS123 
+ 
+$ scp cs17d02@192.168.0.30                        exit
+Connection to 192.168.0.30 closed.
+]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ scp [K[K[K[Kssh cs17d02@192.168.0.30[C[C[C[1P cs17d02@192.168.0.30[1P cs17d02@192.168.0.30c cs17d02@192.168.0.30p cs17d02@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:/home/cs17d02/result1.txt /h ome/s4d1
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d02@192.168.0.30's password: 
+result1.txt                                     0%    0     0.0KB/s   --:-- ETAresult1.txt                                   100%   12KB 798.1KB/s   00:00    
+]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ [K]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ [K]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ [K]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ ls
+abc.txt                  ceccs17d15.04.02.19.txt  [0m[01;34mDocuments[0m       reg2.txt        result_CS.txt  roll3.txt    s1_s2.txt    task5.txt
+ami.txt                  ceccs17d15.11.02.19      [01;34mDownloads[0m       reg.txt         results2.txt   roll4.txt    s1sgpa.txt   [01;34mTemplates[0m
+athi.txt                 ceccs17d15.11.03.19      final_cgpa.txt  res.txt         result.txt     roll5.txt    s2final.txt  [01;34mVideos[0m
+a.txt                    ceccs17d15.25.02.19      [01;34mMusic[0m           result1.pdf     resu.txt       roll6.txt    s2sgpa.txt   [01;36mz.txt[0m
+b.txt                    cgpa.txt                 oo.txt          result1.txt     roll           roll7.txt    sgpas2.txt
+ceccs17d05.04.02.19.txt  cs17d02@192.168.0.30     [01;34mPictures[0m        result2.txt     roll10.txt     roll8.txt    sgpa.txt
+ceccs17d05.11.02.19      dbatch.txt               [01;34mPublic[0m          result_CHN.txt  roll1.txt      roll9.txt    [01;32mtask1.sh[0m
+ceccs17d05.25.02.19      [01;34mDesktop[0m                  reg1.txt        Result_CHN.txt  roll2.txt      s1final.txt  task4.txt
+]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ l[Kexit
+exit
+
+Script done on 2019-03-25 12:04:17+0530
