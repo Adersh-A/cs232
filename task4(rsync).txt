@@ -1,5 +1,7 @@
 Script started on Thursday 04 April 2019 10:24:41 AM IST
-]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh new.txt cs17d02@[K]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh new.txt cs17d02@192.168.0.30:?[K/home/cs17[K]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh new.txt cs17d02@192.168.0.30:/home/cs17d02
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh new.txt cs17d02@
+[K]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh new.txt cs17d02@192.168.0.30:?[K/home/cs17
+[K]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh new.txt cs17d02@192.168.0.30:/home/cs17d02
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -24,7 +26,16 @@ sample.txt        test
 sftp> exi[K[K[Kpwd
 Remote working directory: /home/cs17d02
 sftp> exit
-]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ sftp cs17d02@192.168.0.30 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crsync -zvh new.txt cs17d02@192.168.0.30:/home/cs17d02[1Pcs17d02@192.168.0.30:/home/cs17d02[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/2[1P2[C/result.txt /home[K]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh cs17d02@192.168.0.30:/home/cs17d02/result.txt /home/s4d1/Desktop
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ sftp cs17d02@192.168.0.30 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crsync -zvh new.txt cs17d02@192.168.0.30:/home/cs17d02[1Pcs17d02@192.168.0.30:/home/cs17d02[1Pcs17d02@192.168.0.30:/home/cs17d02
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/2[1P2[C/result.txt /home
+[K]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh cs17d02@192.168.0.30:/home/cs17d02/result.txt /home/s4d1/Desktop
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
