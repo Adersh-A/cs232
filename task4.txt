@@ -1,0 +1,60 @@
+Script started on Thursday 04 April 2019 10:24:41 AM IST
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh new.txt cs17d02@[K]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh new.txt cs17d02@192.168.0.30:?[K/home/cs17[K]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh new.txt cs17d02@192.168.0.30:/home/cs17d02
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d02@192.168.0.30's password: 
+new.txt
+
+sent 79 bytes  received 41 bytes  10.43 bytes/sec
+total size is 11  speedup is 0.09
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ sftp cs17d02@192.168.0.30 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d02@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+cs17d02           examples.desktop  new.txt           result1.txt       s2final.txt       
+sample.txt        test              
+sftp> exi[K[K[Kpwd
+Remote working directory: /home/cs17d02
+sftp> exit
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ sftp cs17d02@192.168.0.30 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crsync -zvh new.txt cs17d02@192.168.0.30:/home/cs17d02[1Pcs17d02@192.168.0.30:/home/cs17d02[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs17d02@192.168.0.30:/home/cs17d02[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/2[1P2[C/result.txt /home[K]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh cs17d02@192.168.0.30:/home/cs17d02/result.txt /home/s4d1/Desktop
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d02@192.168.0.30's password: 
+rsync: link_stat "/home/cs17d02/result.txt" failed: No such file or directory (2)
+
+sent 8 bytes  received 91 bytes  28.29 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1655) [Receiver=3.1.1]
+rsync: [Receiver] write error: Broken pipe (32)
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ rsync -zvh cs17d02@192.168.0.30:/home/cs17d02/result.txt /home/s4d1/Desktop[C[1@1
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d02@192.168.0.30's password: 
+result1.txt
+
+sent 43 bytes  received 1.48K bytes  337.78 bytes/sec
+total size is 12.70K  speedup is 8.36
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ cd[K[Kpwd
+/home/s4d1
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ cd Desktop
+]0;s4d1@CC2-29: ~/Desktop[01;32ms4d1@CC2-29[00m:[01;34m~/Desktop[00m$ ls
+result1.txt  [0m[01;34mUntitled Folder[0m
+]0;s4d1@CC2-29: ~/Desktop[01;32ms4d1@CC2-29[00m:[01;34m~/Desktop[00m$ cd ..
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 04 April 2019 10:30:48 AM IST
