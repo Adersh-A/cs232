@@ -1,0 +1,68 @@
+Script started on Thursday 11 April 2019 10:07:43 AM IST
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ sudo apt-get install vsftpd
+[sudo] password for s4d1: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 309 not upgraded.
+Need to get 0 B/115 kB of archives.
+After this operation, 336 kB of additional disk space will be used.
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215404 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-3ubuntu2_amd64.deb ...
+Unpacking vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for man-db (2.7.5-1) ...
+Setting up vsftpd (3.0.3-3ubuntu2) ...
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ ftp localhost 
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:s4d1): s4d1
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    3 1013     1013         4096 Apr 04 10:29 Desktop
+drwxr-xr-x    2 1013     1013         4096 Feb 04 14:54 Documents
+drwxr-xr-x    2 1013     1013         4096 Feb 11 15:54 Downloads
+drwxrwxr-x    2 1013     1013         4096 Feb 11 16:41 FOSS
+drwxr-xr-x    2 1013     1013         4096 Feb 04 14:54 Music
+drwxr-xr-x    2 1013     1013         4096 Apr 11 10:03 Pictures
+drwxr-xr-x    2 1013     1013         4096 Feb 04 14:54 Public
+drwxr-xr-x    2 1013     1013         4096 Feb 04 14:54 Templates
+-rw-rw-r--    1 1013     1013         3668 Feb 04 16:07 Untitled Document
+drwxr-xr-x    2 1013     1013         4096 Feb 04 14:54 Videos
+-rw-r--r--    1 1013     1013         8980 Feb 04 14:50 examples.desktop
+-rw-rw-r--    1 1013     1013           11 Apr 04 10:19 new.txt
+-rw-r--r--    1 1013     1013        12700 Apr 04 09:40 result1.txt
+-rw-r--r--    1 1013     1013         1135 Apr 04 09:40 s2final.txt
+-rw-rw-r--    1 1013     1013         3668 Feb 04 16:06 script
+-rw-rw-r--    1 1013     1013         4030 Apr 04 10:30 task4.txt
+-rw-rw-r--    1 1013     1013            0 Apr 11 10:07 task7.txt
+-rw-rw-r--    1 1013     1013           17 Feb 04 15:47 test1
+226 Directory send OK.
+ftp> cd Documents
+250 Directory successfully changed.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+226 Directory send OK.
+ftp> cd ..
+250 Directory successfully changed.
+ftp> cat new.txt
+?Invalid command
+ftp> exit
+221 Goodbye.
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ pwd[K[K[Kexit
+exit
+
+Script done on Thursday 11 April 2019 10:26:44 AM IST
