@@ -30,7 +30,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 25 11:22:43 2019 from 192.168.0.208
+Last login: Mon Feb 25 11:22:43 2019 from 192.168.0.208
+
 $ ls
 examples.desktop  result.txt  test
 $ pwd
@@ -283,7 +284,13 @@ $ mv result.txt result1.txt
 $ ls
 examples.desktop  result1.txt
 $ nano 
-[?1049h[1;36r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?12l[?25h[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.5.3                                    New Buffer                                                                                [35;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;133H(B[0;7mModified[3d(B[mwelcome[34d(B[0;7mFile Name to Write:                                                                                                                           [35;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[35;57H(B[0;7mM-A(B[m Append[18X[35;85H(B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[36;57H(B[0;7mM-P(B[m Prepend[17X[36;85H(B[0;7m^T(B[m To Files[K[34;21H(B[0;7ms(B[m(B[0;7ma(B[m(B[0;7mm(B[m(B[0;7mp(B[m(B[0;7ml(B[m(B[0;7me(B[m(B[0;7m.(B[m(B[0;7mt(B[m(B[0;7mx(B[m(B[0;7mt(B[m[?25l[34;63H[39;49m(B[m[1K (B[0;7m[ Wrote 1 line ](B[m[K[3;8H[?12l[?25h[1;51H(B[0;7mFile: sample.txt[1;133H        [35;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[36;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3;8H[34d[J[36;142H[36;1H[?1049l[?1l>$ ls
+[?1049h[1;36r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?12l[?25h[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.5.3                                    New Buffer                                                                                [35;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[1;133H(B[0;7mModified
+[3d(B[mwelcome
+[34d(B[0;7mFile Name to Write:                                                                                                                           [35;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[35;57H(B[0;7mM-A(B[m Append[18X[35;85H(B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[36;57H(B[0;7mM-P(B[m Prepend[17X[36;85H(B[0;7m^T(B[m To Files[K[34;21H(B[0;7ms(B[m(B[0;7ma(B[m(B[0;7mm(B[m(B[0;7mp(B[m(B[0;7ml(B[m(B[0;7me(B[m(B[0;7m.(B[m(B[0;7mt(B[m(B[0;7mx(B[m(B[0;7mt(B[m[?25l[34;63H[39;49m(B[m[1K (B[0;7m[ Wrote 1 line ](B[m[K[3;8H[?12l[?25h[1;51H(B[0;7mFile: sample.txt[1;133H        [35;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[36;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3;8H
+[34d[J[36;142H[36;1H[?1049l
+[?1l>$ ls
 examples.desktop  result1.txt  sample.txt
 $ cat sample.txt
 welcome
@@ -296,7 +303,8 @@ $ du
 4	./.nano
 120	.
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ e[Kssh [K[K[K[Kssh cs17d02@192.168.0.30
 .
               |
@@ -311,7 +319,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Mar 25 11:33:02 2019 from 192.168.0.86
+Last login: Mon Mar 25 11:33:02 2019 from 192.168.0.86
+
 $ ssh     scp s2final.txt sample.txt
 $ ls
 cs17d02  examples.desktop  result1.txt	s2final.txt  sample.txt  test
@@ -381,7 +390,8 @@ LCHN17CS121
 LCHN17CS123 
  
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ exit
 exit
 
